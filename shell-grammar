@@ -1,0 +1,5 @@
+delimeter=(; && || |) 
+arg=\"?[^$delimeter]\"?
+cmd=[^$delimeters]
+command = cmd arg1 arg2 arg3
+command = command $delimeter command
